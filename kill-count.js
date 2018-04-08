@@ -90,6 +90,7 @@ btnRecord.onclick = function() {
   cell3.innerHTML = Math.round(dt/(r/60)*100)/100;
 
   cnt = d;
+  last = now;
   kill.select();
 };
 
