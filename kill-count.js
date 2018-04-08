@@ -82,6 +82,14 @@ kill.onfocus = function() {
   $(this).select();
 };
 
+killStart.addEventListener("keyup", function(event) {
+  event.preventDefault();
+  if (event.keyCode === 13) {
+    start.click();
+    kill.focus();
+  }
+}); 
+
 kill.addEventListener("keyup", function(event) {
   event.preventDefault();
   if (event.keyCode === 13) {

@@ -14,3 +14,22 @@ input {
 h1 {
   margin-top: 20px;
 }
+
+span {
+  color: gray;
+  font-size: 80%;
+}
+
+a {
+  color: gray;
+}
+
+#update-history {
+  text-align: left;
+  color: gray;
+  font-size: 75%;
+}
+
+.table-responsive {
+  min-height: 200px;
+}
