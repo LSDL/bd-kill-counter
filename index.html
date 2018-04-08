@@ -27,6 +27,7 @@
       </div>
       <input type="text" id="kill-start" class="form-control" value="0">
       <button type="button" id="start" class="btn btn-success">시작</button>
+      <button type="button" id="reset" class="btn btn-dark">리셋</button>
     </div>
 
     <div class="input-group">
@@ -47,7 +48,7 @@
             <th>분당킬</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody id="table-body">
         </tbody>
       </table>
     </div>
@@ -55,8 +56,12 @@
     <div id="update-history">
       <h6>-업데이트-</h6>
       <p>
+        v1.03<br>
+        - 리셋 버튼 추가
+      </p>
+      <p>
         v1.02<br>
-        - 시작, 측정 모두 엔터키 동작
+        - 시작, 측정 모두 엔터키 동작 가능
       </p>
       <p>
         v1.01<br>
